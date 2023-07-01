@@ -34,7 +34,7 @@ function Register() {
         }
     }
     return (
-        <form className="container">
+        <form className="container mt-5">
             <div className="mb-3">
                 <label className="form-label">Name</label>
                 <input type="text" className="form-control" id="name" name="name" aria-describedby="emailHelp" value={user.name} onChange={handleRegister}></input>
